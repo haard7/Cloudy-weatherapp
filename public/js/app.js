@@ -15,7 +15,7 @@ weatherForm.addEventListener('submit', (e)=>{
     message2.textContent = ''
     // console.log('testing JS client side');
 
-    fetch('http://localhost:3000/weather?city='+ location).then((response) => {
+    fetch('/weather?city='+ location).then((response) => {
     response.json().then((data) => { //remember that it is response not req.   WHY ??
         if (data.error) {
             // console.log(data.error);
