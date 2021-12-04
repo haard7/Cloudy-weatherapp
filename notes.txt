@@ -1,0 +1,52 @@
+This is for your program strategy
+1) fetching of API //Done
+   1.1) create variable for address/ city
+   1.2) pass Longitude and Latitude through forecast and get temp.
+2) create Handlebars, templates and folder structure //Going
+3) create front end design   
+5) show fetched JSON data to the screen  
+
+
+
+NOTE: You need to enter make two more hbs file of weather and index. Incorporate
+them in thier respective places.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suggestions
+1) Learn securing API

@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation Bar */
+
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar-link{
+    font-size: 30px;
+}
+.navbar-nav{
+    margin-right: 50px;
+}
+.nav-item{
+    margin-right: 40px;
+    font-size: 22px;
+}
+
+
+
+/* Mainpage */
+
+
+#sec1{
+    height: 100vh;
+    background: url('../images/p4.png');
+    background-size: cover;
+    /* z-index: -1; */
+    position: relative;
+}
+#sec2{
+    height: 100vh;
+    background: url('../images/p4.png');
+    background-size: cover;
+    /* z-index: -1; */
+    position: relative;
+}
+
+#sec2 button{
+    padding: 7;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+/* sec2 */
+/* 
+#sec2{
+  
+
+    
+} */
+.weather{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+.weather input{
+             padding: 5px;
+             padding-left: 15px;
+             font-size: 20px;
+             border-width: 3px;
+             border-color: #ffffff;
+             /* background-color: #FFFFFF; */
+             /* color: #ffffff; */
+             /* border-style: hidden; */
+             border-radius: 30px;
+             box-shadow: 1px 0px 3px rgba(102,102,102,.62);
+             text-shadow: -50px 0px 0px rgba(255,255,255,.0);
+             z-index: 1000;
+             outline: none;
+}
+.weather h1{
+    font-family:sans-serif;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+.wthr{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    color: rgb(158, 255, 255);
+
+}
+
+#message1{
+    margin: 0 auto;
+    color: white;
+    /* size: 30px; */
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+#message2{
+    margin: 0 auto;
+    color: white;
+    size: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#message3{
+    margin: 0 auto;
+    color: white;
+    size: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.cloud{
+    width: 22%;
+    z-index: 5;
+    
+
+}
+
+.cloud1{
+    margin-bottom: 500px;
+}
+
+
+
+
+
+/* about page */
+#abt h1{
+color: red;
+}
+
+#abt{
+    background: url('../images/p4.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/*About section */
+#about{
+      margin: 0 auto;
+      text-align: center;
+      width: 60%;
+      
+}
+
+#about p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
